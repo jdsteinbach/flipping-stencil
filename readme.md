@@ -1,3 +1,7 @@
+# Stencil w/ Flipping
+
+---
+
 # Stencil App Starter
 
 Stencil is a compiler for building fast web apps using Web Components.
@@ -10,32 +14,20 @@ Stencil also enables a number of key capabilities on top of Web Components, in p
 
 ## Getting Started
 
-To start a new project using Stencil, clone this repo to a new directory:
+Start by installing npm dependencies:
 
 ```bash
-npm init stencil app
+npm install
 ```
 
-and run:
+Then serve the app (_note: `--es5` isn't necessary in Chrome, but it does allow the app to run in other browsers_):
 
 ```bash
-npm start
+npm run start --es5
 ```
 
 To build the app for production, run:
 
 ```bash
 npm run build
-```
-
-To run the unit tests once, run:
-
-```
-npm test
-```
-
-To run the unit tests and watch for file changes during development, run:
-
-```
-npm run test.watch
 ```
