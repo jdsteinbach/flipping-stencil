@@ -1,0 +1,23 @@
+:host {
+  margin: 1rem auto;
+  display: block;
+  text-align: center;
+}
+
+button {
+  padding: .5rem 1rem;
+  appearance: none;
+  border: 0;
+  border-radius: .5rem;
+  background: #3949AB;
+  color: #ECEFF1;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: #1A237E;
+  }
+}

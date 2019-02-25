@@ -1,0 +1,22 @@
+:host {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 40rem;
+  max-width: 96vw;
+  display: grid;
+  grid-template:
+    "image title" auto
+    "description description" auto/
+    minmax(min-content, 300px) 1fr;
+  grid-gap: 1rem;
+  border-radius: .5rem;
+  box-shadow: 0 2px 5px -2px black;
+}
+
+:host(.flipped) {
+  grid-template:
+    "title title" auto
+    "description image" auto/
+    1fr 100px;
+  grid-gap: 2rem;
+}
